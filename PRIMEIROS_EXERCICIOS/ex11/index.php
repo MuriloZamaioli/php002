@@ -6,9 +6,9 @@
     <title>Numeros</title>
 </head>
 <body>
-    <form name="formulario" method="post" action="verificar.php">
-        Idade: <input type="text" name="idade"> <br>
-        <button type="submit">Verificar Idade</button>
+    <form name="formulario" method="post" action="ola.php">
+        Nome: <input type="text" name="nome"> <br>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>

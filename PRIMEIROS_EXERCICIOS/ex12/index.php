@@ -8,7 +8,8 @@
 <body>
     <form name="formulario" method="post" action="verificar.php">
         Idade: <input type="text" name="idade"> <br>
-        <button type="submit">Verificar Idade</button>
+        Altura: <input type="text" name="altura"> <br>
+        <button type="submit">Verificar</button>
     </form>
 </body>
 </html>
