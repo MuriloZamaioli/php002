@@ -27,9 +27,15 @@ header {
     gap: 50px;
     text-align: center;
     flex-wrap: wrap;
+   
 }
 
-
+.img-formatada{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+     
+}
 
 .card-filme {
     border: 1px solid;
@@ -38,8 +44,9 @@ header {
 
 .lista-filmes img {
     width: 250px;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
+    
 }
 
 .lista-noticias {
@@ -148,7 +155,7 @@ button:hover {
     }
 }
 
-.container{
+/* .container{
     width: 900px;
     margin: 0 auto;
     display: flex;
@@ -167,4 +174,4 @@ button:hover {
 
 .container p{
     margin: 0 50px;
-}
+} */
