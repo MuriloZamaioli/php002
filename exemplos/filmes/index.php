@@ -48,5 +48,42 @@ include "banner.php";
             <img src="img/filme5.jpg" class="img-fluid">
         </div>
     </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-warning btg-lg mt-5 fs-5 fw-bold text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+        Precisa de ajuda? Clique aqui!
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ajuda 🧠</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Entre em contato através dos nossos canais de comunicação</p>
+                    <p>E-mail: filme@filme.com.br <br> Whatsapp: (11)99999-9999 <br> <a href="contato.php"> Formulário de contato</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal
+    <button type="button" class="btn btn-warning mt-5" data-bs-toggle="modal" data-bs-target="#meuModal">
+        Clique aqui!
+    </button>
+        meu modal
+    <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Exemplo de Modal</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Olá, esse é o meu modal
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<?php include "rodape.php"; ?>
+<?php include "rodape.php"; ?> -->
