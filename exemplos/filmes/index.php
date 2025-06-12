@@ -6,24 +6,24 @@ include "banner.php";
     <h2 class="display-5">Melhores avaliações</h2>
     <div class="lista-filmes">
         <div class="row mb-5">
+            <?php
+            /* inicio da conexão com o BD */
+            $servidor = 'localhost';
+            $bd = 'bd_filmes';
+            $usuario = 'root';
+            $senha = '';
+
+            $conexao = mysqli_connect($servidor, $usuario, $senha, $bd);
+            if(!$conexao){
+                die("deu ruim".mysqli_connect_error());
+
+            }
+            echo "deu bom";
+
+            ?>
             <div class="col-3">
                 <img src="img/filme1.webp" class="img-fluid">
                 <h3>Jurassic Park</h3>
-                <span>⭐ 10/10</span>
-            </div>
-            <div class="col-3">
-                <img src="img/filme2.jpg" class="img-fluid">
-                <h3>Karate Kid Legends</h3>
-                <span>⭐ 10/10</span>
-            </div>
-            <div class="col-3">
-                <img src="img/filme3.jpg" class="img-fluid">
-                <h3>Lilo e Stitch</h3>
-                <span>⭐ 10/10</span>
-            </div>
-            <div class="col-3">
-                <img src="img/filme4.jpg" class="img-fluid">
-                <h3>Pecadores</h3>
                 <span>⭐ 10/10</span>
             </div>
         </div>
