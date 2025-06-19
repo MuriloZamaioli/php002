@@ -22,20 +22,18 @@ include "banner.php";
 
             $sql = "select * from filmes";
             $resultado = mysqli_query($conexao, $sql);
-            
-            // echo "<pre>";
-            // print_r($resultado);
-            // exit();
-            while($linha = mysqli_fetch_assoc($resultado)){
-                ?>
-                <div class="col-3">
-                    <img src=<?=$linha['foto'];?> class="img-fluid">
-                    <h3><?=$linha['titulo'];?></h3>
-                    <span>⭐ <?=$linha['avaliacao'];?>/10</span>
+     
+            while ($linha = mysqli_fetch_assoc($resultado)) {
+            ?>
+                <div class="col-3 mb-5">
+                    <img src="<?= $linha['foto']; ?>" class="img-fluid img-formatada">
+                    <h3><?= $linha['titulo']; ?></h3>
+                    <span>⭐<?= $linha['avaliacao']; ?>/10</span>
                 </div>
             <?php
             }
             ?>
+     
 
             
             
